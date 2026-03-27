@@ -444,6 +444,290 @@ function Home() {
         </blockquote>
       </section>
 
+      <section className="section iconic-albums-section">
+        <h2>Iconic Folk Albums</h2>
+        <p className="section-intro">Records that defined the genre and changed the conversation</p>
+        <div className="albums-grid">
+          <div className="album-card">
+            <div className="album-year">1962</div>
+            <h3>The Freewheelin' Bob Dylan</h3>
+            <p className="album-artist">Bob Dylan</p>
+            <p>The album that turned a 21-year-old from Minnesota into the voice of a generation. "Blowin' in the Wind" and "A Hard Rain's a-Gonna Fall" redefined what a folk song could say.</p>
+          </div>
+          <div className="album-card">
+            <div className="album-year">1956</div>
+            <h3>Odetta Sings Ballads and Blues</h3>
+            <p className="album-artist">Odetta</p>
+            <p>The record that made Bob Dylan put down his electric guitar and pick up an acoustic. Odetta's voice on this album launched a thousand folk careers.</p>
+          </div>
+          <div className="album-card">
+            <div className="album-year">1960</div>
+            <h3>Joan Baez</h3>
+            <p className="album-artist">Joan Baez</p>
+            <p>Her self-titled debut brought traditional ballads to a new audience with a soprano voice of crystalline purity. It spent years on the charts and made folk mainstream.</p>
+          </div>
+          <div className="album-card">
+            <div className="album-year">1941</div>
+            <h3>Dust Bowl Ballads</h3>
+            <p className="album-artist">Woody Guthrie</p>
+            <p>One of the first concept albums ever recorded, documenting the devastation of the Dust Bowl through the eyes of those who lived it. Raw, real, and revolutionary.</p>
+          </div>
+          <div className="album-card">
+            <div className="album-year">1964</div>
+            <h3>I Ain't Marching Anymore</h3>
+            <p className="album-artist">Phil Ochs</p>
+            <p>The title track became the anti-war anthem of a generation. Ochs called himself a "singing journalist"—this album is his most powerful dispatch from the front lines of protest.</p>
+          </div>
+          <div className="album-card">
+            <div className="album-year">1967</div>
+            <h3>Pata Pata</h3>
+            <p className="album-artist">Miriam Makeba</p>
+            <p>Joyful, danceable, and defiantly African. Released while Makeba was exiled from South Africa, it introduced millions to the rhythms and spirit of a continent.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section venues-section">
+        <h2>Sacred Ground</h2>
+        <p className="section-intro">The venues and places where folk music was made</p>
+        <div className="venues-grid">
+          <div className="venue-card">
+            <h3>Greenwich Village, NYC</h3>
+            <p className="venue-location">New York, USA</p>
+            <p>The epicenter of the 1960s folk revival. Tiny clubs like the Gaslight Cafe, Cafe Wha?, and Gerde's Folk City launched Dylan, Baez, Dave Van Ronk, and dozens more into the spotlight.</p>
+          </div>
+          <div className="venue-card">
+            <h3>Newport Folk Festival</h3>
+            <p className="venue-location">Newport, Rhode Island, USA</p>
+            <p>Founded in 1959, Newport became the annual summit of American folk. It's where Joan Baez introduced Dylan to the world—and where Dylan shocked it by going electric in 1965.</p>
+          </div>
+          <div className="venue-card">
+            <h3>Pena de los Parra</h3>
+            <p className="venue-location">Santiago, Chile</p>
+            <p>The folk club founded by Angel and Isabel Parra became the heart of Nueva Cancion. Victor Jara, Violeta Parra, and Inti-Illimani all performed here before the 1973 coup silenced the music.</p>
+          </div>
+          <div className="venue-card">
+            <h3>Cecil Sharp House</h3>
+            <p className="venue-location">London, England</p>
+            <p>Home of the English Folk Dance and Song Society since 1930. Named for the collector who traveled Appalachia recording folk songs, it remains the spiritual home of English folk music.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section quote-section">
+        <blockquote>
+          <p>"A guitar has moonlight in it."</p>
+          <cite>— James M. Cain</cite>
+        </blockquote>
+      </section>
+
+      <section className="section women-section">
+        <h2>Women Who Shaped Folk</h2>
+        <p className="section-intro">The female voices too often overlooked in folk history</p>
+        <div className="women-grid">
+          <div className="woman-card">
+            <h3>Violeta Parra</h3>
+            <p className="woman-years">1917–1967, Chile</p>
+            <p>The mother of Nueva Cancion. She traveled Chile collecting folk songs, then transformed them into art. Her "Gracias a la Vida" is one of the most covered songs in Latin American history. She also created groundbreaking visual art, becoming the first Latin American to exhibit at the Louvre.</p>
+          </div>
+          <div className="woman-card">
+            <h3>Buffy Sainte-Marie</h3>
+            <p className="woman-years">1941–present, Canada</p>
+            <p>A Cree singer-songwriter who fought for Indigenous rights through music decades before it was fashionable. Her "Universal Soldier" became a global anti-war anthem, and "Up Where We Belong" won an Academy Award. She was blacklisted by the Johnson and Nixon administrations.</p>
+          </div>
+          <div className="woman-card">
+            <h3>Mercedes Sosa</h3>
+            <p className="woman-years">1935–2009, Argentina</p>
+            <p>Known as "La Negra," she was the greatest voice of Argentine folk. Exiled during the military dictatorship, she returned to sold-out concerts and continued singing for justice until her death. Her voice could fill a stadium and break a heart simultaneously.</p>
+          </div>
+          <div className="woman-card">
+            <h3>Joni Mitchell</h3>
+            <p className="woman-years">1943–present, Canada</p>
+            <p>She expanded what folk could be—open tunings, jazz harmonies, confessional lyrics that went beyond protest into the landscape of inner life. "Blue" is regularly cited as one of the greatest albums ever made in any genre.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section folk-vs-section">
+        <h2>Folk vs. Everything</h2>
+        <p className="section-intro">How folk music connects to and diverges from other traditions</p>
+        <div className="comparison-grid">
+          <div className="comparison-card">
+            <h3>Folk vs. Country</h3>
+            <p>They share roots in Appalachian music and rural storytelling, but country became a commercial genre centered in Nashville while folk stayed closer to its community and protest origins. The lines blur constantly—Woody Guthrie influenced both traditions.</p>
+          </div>
+          <div className="comparison-card">
+            <h3>Folk vs. Blues</h3>
+            <p>The blues emerged from African American experience in the Deep South; folk is a broader umbrella that absorbed the blues and many other traditions. Lead Belly bridged both worlds, and the folk revival brought blues artists to white college audiences for the first time.</p>
+          </div>
+          <div className="comparison-card">
+            <h3>Folk vs. Rock</h3>
+            <p>When Dylan went electric, he didn't leave folk—he dragged it into rock. Folk-rock, from the Byrds to Mumford & Sons, proves these genres are siblings, not strangers. The difference is often just a question of amplification and attitude.</p>
+          </div>
+          <div className="comparison-card">
+            <h3>Folk vs. Punk</h3>
+            <p>More alike than you'd think. Both are DIY, anti-establishment, and rooted in the belief that you don't need virtuosity or a record deal to make music that matters. Billy Bragg calls himself "a one-man clash between folk and punk."</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section banned-section">
+        <h2>Songs They Tried to Silence</h2>
+        <div className="banned-list">
+          <div className="banned-song">
+            <div className="banned-icon">🚫</div>
+            <div className="banned-info">
+              <h3>Strange Fruit — Billie Holiday</h3>
+              <p className="banned-detail">Banned from radio, 1939</p>
+              <p>Her record label Columbia refused to record it. Holiday released it on a small jazz label instead. Radio stations across the country refused to play it. Time magazine called it "a prime piece of musical propaganda."</p>
+            </div>
+          </div>
+          <div className="banned-song">
+            <div className="banned-icon">🚫</div>
+            <div className="banned-info">
+              <h3>This Land Is Your Land — Woody Guthrie</h3>
+              <p className="banned-detail">Censored verses suppressed, 1940s–2000s</p>
+              <p>The verses about private property signs and relief office lines were quietly dropped from songbooks and school curricula for decades, turning a radical anthem into a safe patriotic sing-along.</p>
+            </div>
+          </div>
+          <div className="banned-song">
+            <div className="banned-icon">🚫</div>
+            <div className="banned-info">
+              <h3>Te Recuerdo Amanda — Victor Jara</h3>
+              <p className="banned-detail">Banned in Chile, 1973–1990</p>
+              <p>After the coup, Pinochet's regime banned all of Jara's music. Possessing his records could lead to arrest or worse. Chileans kept his songs alive by passing cassette tapes in secret.</p>
+            </div>
+          </div>
+          <div className="banned-song">
+            <div className="banned-icon">🚫</div>
+            <div className="banned-info">
+              <h3>Goodnight, Irene — The Weavers</h3>
+              <p className="banned-detail">Artists blacklisted, 1950s</p>
+              <p>The Weavers had the #1 song in America, then were erased from the industry overnight when Pete Seeger and the group were blacklisted during the McCarthy era. Their music vanished from radio for years.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section songwriting-section">
+        <h2>Anatomy of a Folk Song</h2>
+        <p className="section-intro">What makes a folk song different from any other kind of song?</p>
+        <div className="anatomy-grid">
+          <div className="anatomy-card">
+            <div className="anatomy-number">01</div>
+            <h3>Story First</h3>
+            <p>Folk songs tell stories. Not abstract emotions or clever wordplay, but narratives about real people, real events, and real consequences. The best folk songs are small movies you can carry in your head.</p>
+          </div>
+          <div className="anatomy-card">
+            <div className="anatomy-number">02</div>
+            <h3>Simple Melody</h3>
+            <p>A folk melody should be singable by anyone after hearing it once. Three chords and the truth, as Harlan Howard said about country music (which borrowed the idea from folk). Complexity serves no one when the goal is communal singing.</p>
+          </div>
+          <div className="anatomy-card">
+            <div className="anatomy-number">03</div>
+            <h3>Shared Ownership</h3>
+            <p>The best folk songs outlive their creators and belong to everyone. They get adapted, rewritten, and passed on. "We Shall Overcome" has no single author—it belongs to every person who has ever sung it in the face of injustice.</p>
+          </div>
+          <div className="anatomy-card">
+            <div className="anatomy-number">04</div>
+            <h3>Purpose Beyond Entertainment</h3>
+            <p>Folk songs work. They organize labor, mourn the dead, celebrate harvests, march against wars. Every folk song exists for a reason beyond filling airtime. Even love songs in the folk tradition carry the weight of a specific time and place.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section quote-section">
+        <blockquote>
+          <p>"There but for fortune may go you or I."</p>
+          <cite>— Phil Ochs</cite>
+        </blockquote>
+      </section>
+
+      <section className="section folk-today-section">
+        <h2>Folk Music Today</h2>
+        <p className="section-intro">The tradition is alive, evolving, and more relevant than ever</p>
+        <div className="today-grid">
+          <div className="today-card">
+            <h3>Climate Anthems</h3>
+            <p>As the climate crisis deepens, a new generation of folk musicians is writing the protest songs of the 21st century. From Extinction Rebellion singalongs to indigenous land defenders' chants, the tradition of singing for the earth continues.</p>
+          </div>
+          <div className="today-card">
+            <h3>Digital Folk</h3>
+            <p>TikTok sea shanties, viral protest songs, and bedroom folk recordings shared on Bandcamp—technology hasn't killed folk music, it's given it new channels. The campfire is now a screen, but the human need to share songs hasn't changed.</p>
+          </div>
+          <div className="today-card">
+            <h3>Indigenous Revival</h3>
+            <p>From the Maori haka to Inuit throat singing to Native American powwow drums, indigenous folk traditions are experiencing a powerful renaissance. Young artists are reclaiming ancestral songs while creating new ones.</p>
+          </div>
+          <div className="today-card">
+            <h3>Protest Playlists</h3>
+            <p>Every modern social movement comes with its own soundtrack. Black Lives Matter, Standing Rock, Hong Kong's Umbrella Movement—all generated songs that draw directly from the folk protest tradition, even when the sound is hip-hop or electronic.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section glossary-section">
+        <h2>Folk Music Glossary</h2>
+        <p className="section-intro">Key terms you'll encounter on your journey through folk music</p>
+        <div className="glossary-grid">
+          <div className="glossary-item">
+            <h3>Ballad</h3>
+            <p>A narrative song that tells a story, usually in verse form with a repeating refrain. Murder ballads, love ballads, and historical ballads form the backbone of the Anglo-American folk tradition.</p>
+          </div>
+          <div className="glossary-item">
+            <h3>Field Holler</h3>
+            <p>A vocal tradition of enslaved African Americans, consisting of improvised calls and cries sung while working in fields. Field hollers are a direct ancestor of the blues.</p>
+          </div>
+          <div className="glossary-item">
+            <h3>Hootenanny</h3>
+            <p>An informal gathering of folk musicians for a jam session, popularized by Pete Seeger and Woody Guthrie in the 1940s. The term became so mainstream that ABC created a TV show called "Hootenanny" in 1963.</p>
+          </div>
+          <div className="glossary-item">
+            <h3>Broadside</h3>
+            <p>Printed sheets with song lyrics, sold cheaply on the street from the 16th century onward. Broadsides were the social media of their era—spreading news, gossip, and protest through song.</p>
+          </div>
+          <div className="glossary-item">
+            <h3>Topical Song</h3>
+            <p>A song written about a specific current event. Phil Ochs was the master of the form, writing songs about news stories so fast that they were sometimes outdated before the album was pressed.</p>
+          </div>
+          <div className="glossary-item">
+            <h3>Shape Note Singing</h3>
+            <p>A sacred folk music tradition using a distinctive notation system to teach singing. Still practiced in communities across the American South, shape note singing is communal, powerful, and deeply spiritual.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section reading-section">
+        <h2>Further Reading</h2>
+        <p className="section-intro">Books that will deepen your understanding of folk music</p>
+        <div className="books-grid">
+          <div className="book-card">
+            <div className="book-icon">📖</div>
+            <h3>The Land Where the Blues Began</h3>
+            <p className="book-author">Alan Lomax</p>
+            <p>The legendary folklorist's account of his journeys through the Mississippi Delta, recording the blues at its source. Part memoir, part ethnography, entirely essential.</p>
+          </div>
+          <div className="book-card">
+            <div className="book-icon">📖</div>
+            <h3>No Direction Home</h3>
+            <p className="book-author">Robert Shelton</p>
+            <p>The definitive biography of Bob Dylan's early years, from his arrival in Greenwich Village to his transformation of American music. Written by the critic who first championed Dylan.</p>
+          </div>
+          <div className="book-card">
+            <div className="book-icon">📖</div>
+            <h3>Where Did You Sleep Last Night?</h3>
+            <p className="book-author">Danielle Fuentes Morgan</p>
+            <p>A reexamination of Lead Belly's life and legacy that centers Black artistry in the folk tradition, challenging the narratives constructed by white folklorists.</p>
+          </div>
+          <div className="book-card">
+            <div className="book-icon">📖</div>
+            <h3>33 Revolutions Per Minute</h3>
+            <p className="book-author">Dorian Lynskey</p>
+            <p>A history of protest music from Billie Holiday to Green Day, tracing how songs have accompanied every major social upheaval of the past century.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="section cta-section">
         <div className="cta-content">
           <h2>The Music Lives On</h2>
