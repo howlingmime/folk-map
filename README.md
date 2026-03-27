@@ -1,16 +1,58 @@
-# React + Vite
+# Folksy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web app exploring the history of folk and protest music — the artists, instruments, movements, and songs that shaped the world.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home** — rich landing page with 15 sections covering folk music history, essential songs, instruments, genres, movements, notable quotes, stats, and a listening guide for newcomers
+- **Artists** — browsable grid of folk and protest musicians with filterable tags
+- **Artist Detail** — in-depth profiles with bios, notable songs, themes, and navigation between artists
+- **World Folk Music** — tabbed explorer of folk traditions across global regions, with descriptions and key instruments
+- **Protest Music History** — timeline of how music powered social movements, from labor organizing to anti-apartheid
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/) 19
+- [React Router](https://reactrouter.com/) 7
+- [Vite](https://vite.dev/) 7
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server with HMR |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── ArtistCard.jsx    # Card component for artist grid
+│   ├── ArtistImage.jsx   # Image component with fallback handling
+│   ├── Header.jsx        # Site header with navigation
+│   └── Footer.jsx        # Site footer
+├── data/
+│   └── folkMusic.js      # All artist, region, and protest history data
+├── pages/
+│   ├── Home.jsx          # Landing page with all content sections
+│   ├── Artists.jsx       # Filterable artist grid
+│   ├── ArtistDetail.jsx  # Individual artist profile
+│   ├── WorldMusic.jsx    # World folk traditions explorer
+│   └── ProtestMusic.jsx  # Protest music timeline
+├── App.jsx               # Router and layout
+├── App.css               # All component styles
+├── index.css             # Base reset
+└── main.jsx              # Entry point
+```
